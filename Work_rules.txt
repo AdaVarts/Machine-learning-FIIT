@@ -1,0 +1,35 @@
+Meno: New person
+AK    ?X is ?Y,?Z needs ?Y
+POTOM pridaj ?X works in ?Z
+
+Meno: Finished developing
+AK    ?X is developing ?Y,?Y is finished
+POTOM vymaz ?X is developing ?Y
+
+Meno: New member on project
+AK    ?X is developing ?Y,?Z works in ?X
+POTOM pridaj ?Z is on ?Y
+
+Meno: Finished project
+AK    ?X is on ?Z,?Z is finished
+POTOM vymaz ?X is on ?Z
+
+Meno: Addres
+AK    ?X works in ?Y,?Y is located in ?Z
+POTOM pridaj ?X lives in ?Z
+
+Meno: New project
+AK    ?X knows ?Y,?Z uses ?Y
+POTOM pridaj ?X is on ?Z,vymaz ?Z needs ?Y
+
+Meno: Collegue
+AK    ?X is on ?Y,?Z is on ?Y,<> ?X ?Z
+POTOM pridaj ?X is collegue ?Z
+
+Meno: Part is made
+AK    ?X is on ?Y,?Y uses ?Z
+POTOM pridaj ?X made ?Y,vymaz ?X is on ?Y
+
+Meno: Made project
+AK    ?X made ?Z,?Z uses ?Y
+POTOM pridaj ?Z is finished,sprava ?Z is finished

@@ -1,0 +1,32 @@
+Meno: Druhyrodiè1
+AK    ?X je rodiè ?Y,manželia ?X ?Z
+POTOM pridaj ?Z je rodiè ?Y
+
+Meno: Druhyrodiè2
+AK    ?X je rodiè ?Y,manželia ?Z ?X
+POTOM pridaj ?Z je rodiè ?Y
+
+Meno: Otec
+AK    ?X je rodiè ?Y,muž ?X
+POTOM pridaj ?X je otec ?Y
+
+Meno: Matka
+AK    ?X je rodiè ?Y,žena ?X
+POTOM pridaj ?X je matka ?Y
+
+Meno: Surodenci
+AK    ?X je rodiè ?Y,?X je rodiè ?Z,<> ?Y ?Z
+POTOM pridaj ?Y a ?Z su surodenci
+
+Meno: Brat
+AK    ?Y a ?Z su surodenci,muž ?Y
+POTOM pridaj ?Y je brat ?Z
+
+Meno: Stryko
+AK    ?Y je brat ?Z,?Z je rodiè ?X
+POTOM pridaj ?Y je stryko ?X,sprava ?X ma stryka
+
+Meno: Test mazania
+AK    ?Y je stryko ?X,žena ?X
+POTOM vymaz žena ?X
+

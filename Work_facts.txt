@@ -1,0 +1,7 @@
+Maria knows Java
+Bank is located in Bratislava
+Soft needs Java
+Soft uses Java
+Josef works in Bank
+Josef knows Java
+Bank is developing Soft
