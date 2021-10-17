@@ -1,5 +1,6 @@
 # Machine_learning_rules
 
+The project is part of the UI curriculum. It contains an example of using simple rules in terms of machine learning to create a knowledge base and operate with rules, process the input data and execute instructions based on templates stored in the program or created by user. 
 
 ### Algorithm
 In the beginning, the program goes through all the existing facts for all the rules and finds for each of the facts of their condition that have the appropriate knowledge, if they meet the patterns of the conditions. Next, it goes through each rule separately and selects from the appropriate facts, such as pairs or triplets that form the fulfilled condition, and writes the result, consequently adding the action to the list of possibly executable.
